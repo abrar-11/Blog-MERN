@@ -11,7 +11,7 @@ const getPosts = async (req, res) => {
 };
 
 const getPost = (req, res) => {
-    console.log("checking 1 2 3 ");
+    console.log("checking");
    res.status(200).json({ success: true, data: "Get Get Post" });
 };
 
